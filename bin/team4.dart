@@ -2,6 +2,7 @@
 import 'dart:io';
 
 void main() {
+  print("Barcelona");
   stdout.write("How many Fibonacci numbers do you want? ");
   int chosenNumber = int.parse(stdin.readLineSync()!);
 
